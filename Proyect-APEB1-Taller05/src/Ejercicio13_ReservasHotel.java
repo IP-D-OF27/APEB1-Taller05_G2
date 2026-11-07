@@ -5,7 +5,7 @@
  * Elaborar una solución que pida el número de días y el precio diario de la 
  * habitación y luego calcule e imprima el subtotal por pagar, el descuento y
  * el total por pagar.
- * @author NombreAutor
+ * @author Emilio González, Juan Castillo
  * @version 1.0
  */
 import java.util.Scanner;
