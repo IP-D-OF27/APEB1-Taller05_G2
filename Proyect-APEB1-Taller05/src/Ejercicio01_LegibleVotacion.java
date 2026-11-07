@@ -13,7 +13,7 @@ public class Ejercicio01_LegibleVotacion {
         if (edad >= 16) {
             System.out.println("Es legible para votar");
         } else {
-            System.out.println("No es legible para ");
+            System.out.println("No es legible para votar");
         }
     }
 }
