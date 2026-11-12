@@ -12,7 +12,7 @@ public class Ejercicio02_DiaSemana {
         System.out.print("Deme nro de dia: ");
         int nroDia = tcl.nextInt();
         //INICIO DE LA SENTENCIA DE SELECCION MULTIPLE
-        {switch (nroDia) 
+        {switch (nroDia){ 
             case 1:
                 nombreDia = "lunes";
                 break;
@@ -36,14 +36,17 @@ public class Ejercicio02_DiaSemana {
                 break;
             default:
                 nombreDia = "Error";
+                break;
         } //FIN DE LA SENTENCIA DE SELECCION MULTIPLLE
-        System.out.println("El nro dia" + nroDia + "corresponde al " + nombreDia);
-                
-        }        
         }
-
+        System.out.println("El dia es: " + nombreDia);
+    }
+}
 
 /***
  * EVIDENCIA DEL RUN:
- * Pegue aquí la evidencia de la ejecución del .java
+ * run:
+Deme nro de dia: 7
+El dia es: domingo
+BUILD SUCCESSFUL (total time: 2 seconds)
  */
