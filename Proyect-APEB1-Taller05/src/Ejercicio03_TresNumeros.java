@@ -14,8 +14,14 @@ public class Ejercicio03_TresNumeros {
         int numero2 = tcl.nextInt();
         System.out.print("Ingrese el tercer numero: ");
         int numero3 = tcl.nextInt();
-        int mayor = Math.max(numero1, Math.max(numero2, numero3));
-        System.out.println(mayor + " es mayor");
+        int mayor;
+        if (numero1 > numero2)
+            mayor = numero1;
+        else 
+            mayor = numero2;
+        if (numero3 > mayor)
+            mayor = numero3;
+        System.out.println(mayor + " es mayor");           
     }
 }
 /***
