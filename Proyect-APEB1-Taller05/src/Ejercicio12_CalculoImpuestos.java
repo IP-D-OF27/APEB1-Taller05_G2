@@ -40,5 +40,13 @@ public class Ejercicio12_CalculoImpuestos {
 }
 /***
  * EVIDENCIA DEL RUN:
- * Pegue aquí la evidencia de la ejecución del .java
+ * Ingrese la marca del automovil: Kia
+ * Ingrese el origen: Japon
+ * Ingrese el costo del automovil: 20000,00
+ * Marca: Kia
+ * Origen: Japon
+ * Costo base: $20000,00
+ * Impuesto por pagar: $6000,00
+ * Precio de venta total: $26000,00
+ * BUILD SUCCESSFUL (total time: 1 minute 3 seconds)
  */
